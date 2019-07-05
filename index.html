@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="./images/lfavicon.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:400,600,600i&display=swap" rel="stylesheet">
     <title>Luis Morán</title>
 </head>
 
@@ -16,13 +17,13 @@
         <nav class="menu">
             <ol>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#portfolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
-                </li>
+                    <a href="#Experiencia">Experiencia</a>
+                </li class="trabajemos">
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a class="juntos" href="#trabajemos">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
@@ -32,7 +33,7 @@
 
         <img src="./images/hero.jpg" alt="Luismorna.com" width="500" height="300">
     </section>
-    <section class="portafolio">
+    <section class="portafolio" id="portfolio">
         <h2>portafolio (projectos destacados)</h2>
         <article class="project">
             <div class="project-details">
@@ -77,7 +78,7 @@
             <img src="./images/platzi-video-react-native.png" alt="platzi.com" width="500">
         </article>
     </section>
-    <section class="eventos">
+    <section class="eventos" id="Experiencia">
         <h2>Más sobre mi experiencia</h2>
         <article class="event">
             <figure class="event-imgcontainer">
@@ -181,7 +182,7 @@
             </div>
         </article>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="trabajemos">
         <form action="/suscription/" class="form-email">
             <h3 class="form-title">¿Creamos algo juntos?</h3>
             <input class="form-caja" type="text" placeholder="Dejame tu email">

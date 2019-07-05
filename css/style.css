@@ -1,4 +1,52 @@
-.header {
-    height: 150px;
-    background-color: red;
+body {
+    margin: 0;
+    font-family: 'Source Sanas Pro', sans-serif;
 }
+
+.header {
+    height: 70px;
+    margin: 0;
+    background-color: #1B2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin: 0;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: inherit;
+}
+
+
+/* .header a.juntos {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+} */
