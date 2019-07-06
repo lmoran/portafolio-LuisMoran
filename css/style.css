@@ -50,3 +50,38 @@ body {
     border-radius: 5px;
     margin-right: 20px;
 } */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    background: #1D252C;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h1 strong {
+    color: #026FFF;
+}
+
+.hero img {
+    object-fit: cover;
+}
