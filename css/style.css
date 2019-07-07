@@ -304,3 +304,19 @@ h1 strong {
 .social-link.instagram {
     background-image: url('../images/instagram.svg');
 }
+
+.footer {
+    background-color: #1B2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
