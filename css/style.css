@@ -192,3 +192,49 @@ h1 strong {
     border-radius: 5px;
     padding: 10px 30px;
 }
+
+.lucho-skill {
+    display: flex;
+    justify-content: space-evenly;
+    /*  width: 500px; */
+}
+
+.lucho-skill-left,
+.lucho-skill-rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lucho-skill-left div span,
+.lucho-skill-rigth div span {
+    border: 1px solid #026FFF;
+    border-radius: 20px;
+    color: white;
+    background-color: #026FFF;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin: 0 40px;
+}
+
+.work-1,
+.work-3,
+.work-5 {
+    display: inherit;
+    justify-content: space-between;
+}
+
+.work-2,
+.work-4,
+.work-6 {
+    display: inherit;
+    justify-content: center;
+}
+
+.lucho-skill-imgcontainer {
+    margin: 0;
+}
+
+.lucho-skill-img {
+    height: 500px;
+}
