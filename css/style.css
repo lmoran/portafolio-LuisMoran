@@ -86,13 +86,18 @@ h1 strong {
     object-fit: cover;
 }
 
+.portafolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
 .portafolio h2 {
     color: #026FFF;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 .project {
@@ -141,7 +146,7 @@ h1 strong {
 
 .eventos {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -319,4 +324,15 @@ h1 strong {
 
 .footer a {
     color: white;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 1024px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: space-between;
+    flex-wrap: inherit;
+    ;
 }
