@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -57,6 +58,7 @@ body {
     justify-content: space-between;
     height: 300px;
     background: #1D252C;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -111,6 +113,7 @@ h1 strong {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .project-details {
@@ -203,6 +206,7 @@ h1 strong {
 .lucho-skill {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /*  width: 500px; */
 }
 
@@ -211,6 +215,7 @@ h1 strong {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .lucho-skill-left div span,
@@ -222,6 +227,7 @@ h1 strong {
     padding: 5px 20px;
     font-size: 16px;
     margin: 0 40px;
+    flex-wrap: wrap;
 }
 
 .work-1,
@@ -252,6 +258,7 @@ h1 strong {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .form-title {
@@ -318,6 +325,7 @@ h1 strong {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -330,7 +338,7 @@ h1 strong {
 
 .container {
     /* border: 1px solid red; */
-    width: 1024px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     align-items: inherit;
@@ -338,3 +346,11 @@ h1 strong {
     flex-wrap: inherit;
     ;
 }
+
+@media screen and (max-width:1023px) {}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {}
