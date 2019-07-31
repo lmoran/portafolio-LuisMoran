@@ -84,6 +84,8 @@ h1 strong {
 
 .hero img {
     object-fit: cover;
+    clip-path: polygon(16% 0, 100% 0, 100% 100%, 1% 100%);
+    /* object-position: center 25%; */
 }
 
 .portafolio {
