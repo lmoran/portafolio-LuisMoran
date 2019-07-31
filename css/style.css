@@ -348,7 +348,29 @@ h1 strong {
     ;
 }
 
-@media screen and (max-width:1023px) {}
+@media screen and (max-width:1023px) {
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        clip-path: none;
+        object-position: 0 40%;
+        object-fit: cover;
+    }
+    h1 {
+        z-index: 1;
+        font-size: 2em;
+    }
+}
 
 @media screen and (max-width:767px) {
     .header {
@@ -369,6 +391,20 @@ h1 strong {
     }
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .hero img {
+        object-position: 0 50%;
+    }
+}
 
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+    h1 {
+        font-size: 1em;
+    }
+    .hero img {
+        object-position: 0 60%;
+    }
+}
