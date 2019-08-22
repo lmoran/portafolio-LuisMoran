@@ -1,2 +1,2 @@
-# portafolio-cursodwo
-Portafolio creado en base al curso de desarrollo web online
+# portafolio-LuisMoran
+Portafolio creado en base al curso de desarrollo web online y responsive Desing
